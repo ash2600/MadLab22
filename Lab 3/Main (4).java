@@ -9,10 +9,10 @@ Code, Compile, Run and Debug online from anywhere in world.
 public class Main
 {
 	public static void main(String[] args) {
-	mother m= new mother();
-	m.show();
-	child c= new child();
-	c.show();
+mother m1=new child();//by mother class refrence we can call child class funtion but no vice versas
+	m1.show();
+
+	
 	}
 }
 
